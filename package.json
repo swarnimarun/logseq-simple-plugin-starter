@@ -1,0 +1,26 @@
+{
+  "name": "logseq-simple-plugin-starter",
+  "version": "0.1.0",
+  "description": "a decent & simple starter for logseq plugins",
+  "targets": {
+    "main": {
+      "optimize": true
+    }
+  },
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "parcel build --no-source-maps"
+  },
+  "logseq": {
+    "icon": "./logo.png"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.1",
+    "typescript": "^4.9.4",
+    "@logseq/libs": "^0.0.12"
+  }
+}
